@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chemical-Reactions</title>
+</head>
+<body>
+<div id="wrapper">
+  <div class="point" data-point="INT3D-96">
+    <div class="title"><span>Table 1. HCl reacts with metals</span></div>
+    <img src="assets/img/INT3D-98_00006_00000.jpg" alt="">
+  </div>
+  <div class="point" data-point="INT3D-97">
+    <div class="title"><span>Table 2. Oxidation of metals</span></div>
+    <img src="assets/img/INT3D-98_00006_00001.jpg" alt="">
+  </div>
+  <div class="point" data-point="INT3D-98">
+    <div class="title"><span>Table 3. Combustion</span></div>
+    <img src="assets/img/INT3D-98_00006_00002.jpg" alt="">
+  </div>
+  <div class="point" data-point="INT3D-99">
+    <div class="title"><span>Table 4. Neutralization</span></div>
+    <img src="assets/img/INT3D-98_00006_00003.jpg" alt="">
+  </div>
+</div>
+<div id="timeline-wrapper">
+  <button id="closeButton">
+    <span></span>&nbsp;Close
+  </button>
+  <div id="timeline"></div>
+</div>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+    .register('service-worker.js').then(() => {});
+  }
+</script>
+</body>
+</html>
