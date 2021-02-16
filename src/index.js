@@ -8,7 +8,7 @@ let timeline;
 const seqCount = {
   "INT3D-96": 198,
   "INT3D-97": 225,
-  "INT3D-98": 232,
+  "INT3D-98": 238,
   "INT3D-99": 227,
 }
 
