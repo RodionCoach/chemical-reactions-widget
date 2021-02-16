@@ -242,6 +242,7 @@ path {
   border-radius: 0 0 5px 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, .43);
   transition: all ease-in-out 0.5s;
+  z-index: 2;
 }
 
 #closeButton {
