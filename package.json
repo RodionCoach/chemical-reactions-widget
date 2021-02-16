@@ -1,0 +1,12 @@
+{
+  "name": "heroku-static",
+  "verwion": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "author": "Rodion K",
+  "license": "none"
+}
